@@ -1,0 +1,12 @@
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.AssemblyReference.cache
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Form1.resources
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Properties.Resources.resources
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.GenerateResource.cache
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.CoreCompileInputs.cache
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.exe
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.pdb
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
+D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\DataTest_cotToanTu_21_Hai.csv
