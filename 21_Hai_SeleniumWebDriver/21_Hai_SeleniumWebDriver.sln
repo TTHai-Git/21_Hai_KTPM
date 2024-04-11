@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33920.266
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_Hai_SeleniumWebDriver", "21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver.csproj", "{9C9CCD5F-F4A7-4EF6-822B-74EC72291B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebsiteHopAmChuan", "TestWebsiteHopAmChuan\TestWebsiteHopAmChuan.csproj", "{79E18584-A0D2-4445-9EBA-8FC81F7B1DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C9CCD5F-F4A7-4EF6-822B-74EC72291B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9CCD5F-F4A7-4EF6-822B-74EC72291B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9CCD5F-F4A7-4EF6-822B-74EC72291B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9CCD5F-F4A7-4EF6-822B-74EC72291B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E18584-A0D2-4445-9EBA-8FC81F7B1DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E18584-A0D2-4445-9EBA-8FC81F7B1DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E18584-A0D2-4445-9EBA-8FC81F7B1DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E18584-A0D2-4445-9EBA-8FC81F7B1DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C56EA6C-5B52-4C40-8927-B7D01FAA0185}
+	EndGlobalSection
+EndGlobal

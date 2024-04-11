@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F05EA00-7D04-460B-8443-7241B00927FF}</ProjectGuid>
+    <ProjectGuid>{61ED0E4A-306C-4F51-9567-3C86C71C19FF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Calculator_21_Hai</RootNamespace>
     <AssemblyName>Calculator_21_Hai</AssemblyName>
@@ -53,6 +53,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Polynomial_21_Hai.cs" />
+    <Compile Include="power.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -67,10 +69,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Data\DataTest_cotToanTu_21_Hai.csv">
+    <None Include="Data\TestData_21_Hai.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Data\TestData_21_Hai.csv">
+    <None Include="Data\TestData_2_21_Hai.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\TestData_Power_21_Hai.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">

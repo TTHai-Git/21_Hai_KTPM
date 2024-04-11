@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{553C691A-23E2-4D79-89C6-0888A6B4B554}</ProjectGuid>
+    <ProjectGuid>{BEB3465F-03EF-4F24-9C04-EBAB1BDFAEB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CalculatorTester_21_Hai</RootNamespace>
@@ -52,13 +52,15 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest2.cs" />
+    <Compile Include="UnitTest3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Calculator_21_Hai\Calculator_21_Hai.csproj">
-      <Project>{1f05ea00-7d04-460b-8443-7241b00927ff}</Project>
+      <Project>{61ed0e4a-306c-4f51-9567-3c86c71c19ff}</Project>
       <Name>Calculator_21_Hai</Name>
     </ProjectReference>
   </ItemGroup>

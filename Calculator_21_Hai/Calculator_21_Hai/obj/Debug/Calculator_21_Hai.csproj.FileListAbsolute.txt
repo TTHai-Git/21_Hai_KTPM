@@ -1,12 +1,35 @@
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.pdb
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.AssemblyReference.cache
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Form1.resources
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Properties.Resources.resources
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.GenerateResource.cache
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.CoreCompileInputs.cache
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.exe
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.pdb
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
-D:\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\DataTest_cotToanTu_21_Hai.csv
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.AssemblyReference.cache
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Form1.resources
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Properties.Resources.resources
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.GenerateResource.cache
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.CoreCompileInputs.cache
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.exe
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.pdb
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData.csv
+F:\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+F:\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe
+F:\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+F:\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.AssemblyReference.cache
+F:\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Form1.resources
+F:\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Properties.Resources.resources
+F:\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.GenerateResource.cache
+F:\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.CoreCompileInputs.cache
+F:\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.exe
+F:\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.pdb
+F:\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
+F:\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_2_21_Hai.csv
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_2_21_Hai.csv
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Form1.resources
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Properties.Resources.resources
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.GenerateResource.cache
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.CoreCompileInputs.cache
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.exe
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.pdb
+F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\testData_Power_21_Hai.csv

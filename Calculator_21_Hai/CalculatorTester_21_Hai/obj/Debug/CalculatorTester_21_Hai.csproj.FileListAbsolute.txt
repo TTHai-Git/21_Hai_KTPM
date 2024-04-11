@@ -1,19 +1,57 @@
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.dll
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.pdb
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.pdb
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.AssemblyReference.cache
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CoreCompileInputs.cache
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CopyComplete
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.dll
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.pdb
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
-D:\21_Hai_KTPM\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\DataTest_cotToanTu_21_Hai.csv
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.dll
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.pdb
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.AssemblyReference.cache
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CoreCompileInputs.cache
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CopyComplete
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.dll
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.pdb
+F:\Kiểm Thử Phần Mềm\Buổi thực hành 2 (22-03-2024)\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\TestData.csv
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.dll
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.pdb
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.AssemblyReference.cache
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CoreCompileInputs.cache
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CopyComplete
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.dll
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.pdb
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
+F:\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\TestData_2_21_Hai.csv
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\TestData_2_21_Hai.csv
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.dll
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\CalculatorTester_21_Hai.pdb
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.AssemblyReference.cache
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CoreCompileInputs.cache
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.csproj.CopyComplete
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.dll
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\obj\Debug\CalculatorTester_21_Hai.pdb
+F:\Sofware Testing\Calculator_21_Hai\CalculatorTester_21_Hai\bin\Debug\Data\testData_Power_21_Hai.csv
