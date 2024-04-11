@@ -33,3 +33,16 @@ F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_H
 F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.exe
 F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.pdb
 F:\Sofware Testing\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\testData_Power_21_Hai.csv
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_21_Hai.csv
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_2_21_Hai.csv
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Data\TestData_Power_21_Hai.csv
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe.config
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.exe
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\bin\Debug\Calculator_21_Hai.pdb
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.AssemblyReference.cache
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Form1.resources
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.Properties.Resources.resources
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.GenerateResource.cache
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.csproj.CoreCompileInputs.cache
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.exe
+F:\Sofware Testing\21_Hai_KTPM\Calculator_21_Hai\Calculator_21_Hai\obj\Debug\Calculator_21_Hai.pdb

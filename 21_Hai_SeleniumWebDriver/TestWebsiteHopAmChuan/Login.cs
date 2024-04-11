@@ -4,9 +4,6 @@ using System.Collections.Generic;
 using System.Text;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-// các phương thức định nghĩa
-using MAssert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
-using MTestContext = Microsoft.VisualStudio.TestTools.UnitTesting.TestContext;
 using System.Threading;
 
 namespace TestWebsiteHopAmChuan
@@ -16,7 +13,6 @@ namespace TestWebsiteHopAmChuan
     public class Login
     {
         private IWebDriver driver;
-        private TestContext testContextInstance;
 
         [TestInitialize]
         public void Setup()
@@ -30,19 +26,9 @@ namespace TestWebsiteHopAmChuan
             driver.Navigate().GoToUrl("https://hopamchuan.com/");
         }
 
-        
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
 
+        public TestContext TestContext { get; set; }
+        
 
         public void login(string username, string password)
         {
@@ -95,9 +81,9 @@ namespace TestWebsiteHopAmChuan
             // đặt url kỳ vọng so với thực tế
             string expectedurl = "https://hopamchuan.com/";
             // so sánh url kì vọng so với thực tế
-            MAssert.AreEqual(actualurl, expectedurl);
+           Assert.AreEqual(actualurl, expectedurl);
             // kiểm tra xem có tồn tại user tên là "Ngô Trung Trí" hay không?
-            MAssert.IsTrue(Getuser().Contains("Ngô Trung Trí"));
+            Assert.IsTrue(Getuser().Contains("Ngô Trung Trí"));
             /// Dừng 3 giây rùi đóng Chrome
             Thread.Sleep(5000);
             driver.Quit();
@@ -118,7 +104,7 @@ namespace TestWebsiteHopAmChuan
             // đặt errormessage kỳ vọng so với thực tế
             string expected_errormessage = "Tên tài khoản hoặc Email không được bỏ trống.";
             // so sánh errormessage kì vọng so với thực tế
-            MAssert.AreEqual(actual_e_errormessage, expected_errormessage);
+            Assert.AreEqual(actual_e_errormessage, expected_errormessage);
             /// Dừng 3 giây rùi đóng Chrome
             Thread.Sleep(3000);
             driver.Quit();
@@ -140,7 +126,7 @@ namespace TestWebsiteHopAmChuan
             // đặt errormessage kỳ vọng 
             string expected_errormessage = "Mật khẩu không được bỏ trống.";
             // so sánh errormessage kì vọng so với errormessgae thực tế
-            MAssert.AreEqual(actual_e_errormessage, expected_errormessage);
+            Assert.AreEqual(actual_e_errormessage, expected_errormessage);
             /// Dừng 3 giây rùi đóng Chrome
             Thread.Sleep(3000);
             driver.Quit();
@@ -162,7 +148,7 @@ namespace TestWebsiteHopAmChuan
         //    // đặt errormessage kỳ vọng
         //    string expected_errormessage = "Tên tài khoản hoặc Email không được bỏ trống. Mật khẩu không được bỏ trống.";
         //    // so sánh errormessage kì vọng so với errormessage thực tế
-        //    MAssert.AreEqual(actual_e_errormessage, expected_errormessage);
+        //   Assert.AreEqual(actual_e_errormessage, expected_errormessage);
         //    /// Dừng 3 giây rùi đóng Chrome
         //    Thread.Sleep(3000);
         //    driver.Quit();
@@ -184,7 +170,7 @@ namespace TestWebsiteHopAmChuan
             // đặt errormessage kỳ vọng
             string expected_errormessage = "Tài khoản hoặc mật khẩu không đúng";
             // đặt errormessage kỳ vọng so với errormessage thực tế
-            MAssert.AreEqual(actual_e_errormessage, expected_errormessage);
+            Assert.AreEqual(actual_e_errormessage, expected_errormessage);
             /// Dừng 3 giây rùi đóng Chrome
             Thread.Sleep(3000);
             driver.Quit();
@@ -206,7 +192,7 @@ namespace TestWebsiteHopAmChuan
             // đặt errormessage kỳ vọng 
             string expected_errormessage = "Tài khoản hoặc mật khẩu không đúng";
             // so sánh errormessage kì vọng so với errormessage thực tế
-            MAssert.AreEqual(actual_e_errormessage, expected_errormessage);
+            Assert.AreEqual(actual_e_errormessage, expected_errormessage);
             /// Dừng 3 giây rùi đóng Chrome
             Thread.Sleep(3000);
             driver.Quit();

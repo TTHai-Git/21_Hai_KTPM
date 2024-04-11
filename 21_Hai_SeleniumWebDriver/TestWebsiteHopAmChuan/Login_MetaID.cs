@@ -12,7 +12,6 @@ namespace TestWebsiteHopAmChuan
     public class Login_MetaID
     {
         private IWebDriver driver;
-        private TestContext testContextInstance;
         public Login_MetaID()
         {
             driver = new ChromeDriver();
@@ -45,17 +44,8 @@ namespace TestWebsiteHopAmChuan
             }
         }
 
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
+        public TestContext TestContext { get; set; }
+        
 
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\data_2\TestData_Login.csv", "TestData_Login#csv", DataAccessMethod.Sequential)]
         [TestMethod] // TC 1: login thành công với user name và pasword
