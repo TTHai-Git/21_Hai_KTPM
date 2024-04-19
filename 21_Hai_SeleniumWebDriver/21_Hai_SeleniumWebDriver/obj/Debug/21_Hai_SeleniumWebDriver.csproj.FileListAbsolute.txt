@@ -26,7 +26,6 @@ F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\bin\Debug\WebDriver.dll
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\bin\Debug\Newtonsoft.Json.xml
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\bin\Debug\WebDriver.xml
-F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\21_Hai_SeleniumWebDriver.csproj.AssemblyReference.cache
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\_21_Hai_SeleniumWebDriver.Form1.resources
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\_21_Hai_SeleniumWebDriver.Properties.Resources.resources
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\21_Hai_SeleniumWebDriver.csproj.GenerateResource.cache
@@ -34,3 +33,4 @@ F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\21_Hai_SeleniumWebDriver.csproj.CopyComplete
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\21_Hai_SeleniumWebDriver.exe
 F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\21_Hai_SeleniumWebDriver.pdb
+F:\Sofware Testing\21_Hai_KTPM\21_Hai_SeleniumWebDriver\21_Hai_SeleniumWebDriver\obj\Debug\21_Hai_SeleniumWebDriver.csproj.AssemblyReference.cache
