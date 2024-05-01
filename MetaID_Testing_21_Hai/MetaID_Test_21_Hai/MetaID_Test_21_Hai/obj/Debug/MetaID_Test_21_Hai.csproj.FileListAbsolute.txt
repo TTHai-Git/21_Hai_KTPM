@@ -50,3 +50,11 @@ F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_T
 F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\obj\Debug\MetaID_Test_21_Hai.csproj.CopyComplete
 F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\obj\Debug\MetaID_Test_21_Hai.dll
 F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\obj\Debug\MetaID_Test_21_Hai.pdb
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\nunit.framework.dll
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\nunit.framework.legacy.dll
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\nunit.framework.xml
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\nunit.framework.legacy.xml
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Sofware Testing\21_Hai_KTPM\MetaID_Testing_21_Hai\MetaID_Test_21_Hai\MetaID_Test_21_Hai\bin\Debug\System.Threading.Tasks.Extensions.xml
