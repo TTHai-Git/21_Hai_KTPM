@@ -1,0 +1,819 @@
+{
+	"info": {
+		"_postman_id": "844ad8db-c055-42e9-ad45-a8ab09a422b8",
+		"name": "product_21_Hai",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34239989",
+		"_collection_link": "https://martian-comet-742575.postman.co/workspace/product_test_21_hai~70c94eae-acbd-4f18-8782-8c66d67e9597/collection/34239989-844ad8db-c055-42e9-ad45-a8ab09a422b8?action=share&source=collection_link&creator=34239989"
+	},
+	"item": [
+		{
+			"name": "search_by_name_of_product_21_Hai",
+			"item": [
+				{
+					"name": "testcase_3_1_search_thanh_cong_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_3_1_search_thanh_cong_21_Hai', function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    const results = pm.response.json().results;\r",
+									"\r",
+									"    for (let result of results) {\r",
+									"        pm.expect(result.name.toLowerCase()).to.include(\"điện thoại\");\r",
+									"    }\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/search?name=Điện Thoại",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Điện Thoại"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_3_2_search_khong_thanh_cong_voi_ten_trong_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_3_2_search_khong_thanh_cong_voi_ten_trong', function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var acutal_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    pm.expect(acutal_message_error).to.eql(\"Tên không được bỏ trống\")\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/search",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"search"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sort_by_price_asc_21_Hai",
+			"item": [
+				{
+					"name": "testcase_4_1_sort_thanh_cong_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_4_1_sort_thanh_cong_21_Hai', function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    // danh sách các sản phẩm có giá đã được sắp xếp tăng dần\r",
+									"    const actual_prices_asc_products = pm.response.json().results.map(product => product.price);\r",
+									"\r",
+									"    // Sử dụng hàm sort, để sắp xếp giá tăng dần dư đoán cho mảng giá sản phẩm trên để kiểm tra\r",
+									"    const expect_prices_asc_products = [...actual_prices_asc_products].sort((a, b) => a - b);\r",
+									"\r",
+									"    pm.expect(actual_prices_asc_products).to.eql(expect_prices_asc_products)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/sort-asc",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"sort-asc"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "search_by_price_21_Hai",
+			"item": [
+				{
+					"name": "testcase_5_1_search_price_thanh_cong_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_5_1_search_price_thanh_cong_21_Hai', function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    const min_price = 22000000;\r",
+									"    const max_price = 100000000;\r",
+									"\r",
+									"    const results = pm.response.json().results;\r",
+									"    for (let result of results){\r",
+									"        const price = result.price;\r",
+									"        pm.expect(price).to.be.at.least(min_price);//sẽ kiểm tra xem giá price có lớn hơn hoặc bằng min_price hay không.\r",
+									"        pm.expect(price).to.be.at.most(max_price);// sẽ kiểm tra xem giá price có nhỏ hơn hoặc bằng max_price hay không.\r",
+									"    }\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/search/price?min=22000000&max=100000000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"search",
+								"price"
+							],
+							"query": [
+								{
+									"key": "min",
+									"value": "22000000"
+								},
+								{
+									"key": "max",
+									"value": "100000000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_5_2_search_price_khong_thanh_cong_voi_price_sai_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_5_2_search_price_khong_thanh_cong_voi_price_sai_21_Hai', function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var acutal_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    pm.expect(acutal_message_error).to.eql(\"Tham số giá không hợp lệ\")\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/search/price?min=abc&max=xyz",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"",
+								"api",
+								"search",
+								"price"
+							],
+							"query": [
+								{
+									"key": "min",
+									"value": "abc"
+								},
+								{
+									"key": "max",
+									"value": "xyz"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_5_3_search_price_khong_thanh_cong_voi_min_price_lon_hon_max_price_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_5_3_search_price_khong_thanh_cong_voi_min_price_lon_hon_max_price_21_Hai', function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var acutal_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    pm.expect(acutal_message_error).to.eql(\"Khoảng giá không hợp lệ!!! Vui lòng nhập giá Min price nhỏ hơn giá Max price\")\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/search/price?min=100000000&max=22000000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"search",
+								"price"
+							],
+							"query": [
+								{
+									"key": "min",
+									"value": "100000000"
+								},
+								{
+									"key": "max",
+									"value": "22000000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "update_price_of_product_21_Hai",
+			"item": [
+				{
+					"name": "testcase_6_1_update_price_thanh_cong_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_6_1_update_price_thanh_cong_21_Hai', function(){\r",
+									"    pm.response.to.have.status(200)\r",
+									"\r",
+									"    var product_json = pm.response.json().result\r",
+									"\r",
+									"    pm.expect(product_json.price).to.eql(5550000)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{host}}/api/update/0/price?update_price=5550000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"update",
+								"0",
+								"price"
+							],
+							"query": [
+								{
+									"key": "update_price",
+									"value": "5550000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_6_2_update_price_khong_thanh_cong_voi_price_sai_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_6_2_update_price_khong_thanh_cong_voi_price_sai_21_Hai', function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var actual_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    pm.expect(actual_message_error).to.eql(\"Tham số giá không hợp lệ\")\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/update/0/price?update_price=-22220000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"update",
+								"0",
+								"price"
+							],
+							"query": [
+								{
+									"key": "update_price",
+									"value": "-22220000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_6_3_update_price_khong_thanh_cong_voi_thu_tu_san_pham_sai_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_6_3_update_price_khong_thanh_cong_voi_thu_tu_san_pham_sai_21_Hai', function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var actual_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    pm.expect(actual_message_error).to.eql(\"Không tìm thấy sản phẩm cần cập nhật giá\")\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/update/22/price?update_price=5550000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"update",
+								"22",
+								"price"
+							],
+							"query": [
+								{
+									"key": "update_price",
+									"value": "5550000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "add_product_21_Hai",
+			"item": [
+				{
+					"name": "testcase_7_1_add_product_thanh_cong_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_7_1_add_product_thanh_cong_21_Hai',function(){\r",
+									"    pm.response.to.have.status(200)\r",
+									"\r",
+									"    var result = pm.response.json().result\r",
+									"\r",
+									"    var expected_name = \"Máy lạnh âm trần LG 5 HP ATNQ48GMLE7 (3 pha)\"\r",
+									"    var expected_price = 50790000\r",
+									"\r",
+									"    pm.expect(result.name).to.eql(expected_name)\r",
+									"    pm.expect(result.price).to.eql(expected_price)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/add/product?name=Máy lạnh âm trần LG 5 HP ATNQ48GMLE7 (3 pha)&price=50790000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"add",
+								"product"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Máy lạnh âm trần LG 5 HP ATNQ48GMLE7 (3 pha)"
+								},
+								{
+									"key": "price",
+									"value": "50790000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_7_2_add_product_khong_thanh_cong_voi_san_pham_da_ton_tai_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_7_2_add_product_khong_thanh_cong_voi_san_pham_da_ton_tai_21_Hai',function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var actual_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    var expected_message_error = \"Thêm sản phẩm thất bại!!! Sản phẩm đã tồn tại\"\r",
+									"    \r",
+									"    pm.expect(actual_message_error).to.eql(expected_message_error)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/add/product?name=Điện thoại iPhone 15 Pro Max 256GB&price=29990000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"add",
+								"product"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Điện thoại iPhone 15 Pro Max 256GB"
+								},
+								{
+									"key": "price",
+									"value": "29990000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_7_3_add_product_khong_thanh_cong_voi_thieu_name_san_pham_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_7_3_add_product_khong_thanh_cong_voi_thieu_name_san_pham_21_Hai',function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var actual_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    var expected_message_error = \"Thêm sản phẩm thất bại!!! Thiếu tham số tên (name) của sản phẩm\"\r",
+									"    \r",
+									"    pm.expect(actual_message_error).to.eql(expected_message_error)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/add/product?price=6990000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"add",
+								"product"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Quạt điều hoà Daikiosan DM104",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "6990000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_7_4_add_product_khong_thanh_cong_voi_sai_price_san_pham_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_7_4_add_product_khong_thanh_cong_voi_sai_price_san_pham_21_Hai',function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var actual_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    var expected_message_error = \"Thêm sản phẩm thất bại!!! Tham số giá (price) của sản phẩm không hợp lệ\"\r",
+									"    \r",
+									"    pm.expect(actual_message_error).to.eql(expected_message_error)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/add/product?name=Quạt điều hoà Daikiosan DM104&price=-22000000",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"add",
+								"product"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Quạt điều hoà Daikiosan DM104"
+								},
+								{
+									"key": "price",
+									"value": "-22000000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_7_5_add_product_khong_thanh_cong_voi_thieu_price_san_pham_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_7_5_add_product_khong_thanh_cong_voi_thieu_price_san_pham_21_Hai',function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var actual_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    var expected_message_error = \"chỉ thiếu tham số giá (price) của sản phẩm\"\r",
+									"    \r",
+									"    pm.expect(actual_message_error).to.include(expected_message_error)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/add/product?name=Quạt điều hoà Daikiosan DM104",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"add",
+								"product"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Quạt điều hoà Daikiosan DM104"
+								},
+								{
+									"key": "price",
+									"value": "6990000",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_7_6_add_product_khong_thanh_cong_voi_thieu_price_va_name_san_pham_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_7_6_add_product_khong_thanh_cong_voi_thieu_price_va_name_san_pham_21_Hai',function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var actual_message_error = pm.response.json().message_error\r",
+									"\r",
+									"    var expected_message_error = \"Thiếu tham số tên (name) và giá (price) của sản phẩm\"\r",
+									"    \r",
+									"    pm.expect(actual_message_error).to.include(expected_message_error)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/add/product",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"add",
+								"product"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Quạt điều hoà Daikiosan DM104",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "6990000",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "del_product_21_Hai",
+			"item": [
+				{
+					"name": "testcase_8_1_delete_product_thanh_cong_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_8_1__delete_product_thanh_cong_21_Hai', function(){\r",
+									"    pm.response.to.have.status(204)\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/delete/6/product",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"delete",
+								"6",
+								"product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testcase_8_2_delete_product_that_bai_voi_khong_tim_thay_san_pham_21_Hai",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('testcase_8_2_delete_product_that_bai_vi_khong_tim_thay_san_pham_21_Hai', function(){\r",
+									"    pm.response.to.have.status(400)\r",
+									"\r",
+									"    var error_message_actual = pm.response.json().error_message\r",
+									"\r",
+									"    pm.expect(error_message_actual).to.eql(\"Xóa sản phẩm thất bại!!! Vui lòng kiểm tra lại thứ tự của sản phẩm muốn xóa\")\r",
+									"})"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/delete/22/product",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"delete",
+								"22",
+								"product"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

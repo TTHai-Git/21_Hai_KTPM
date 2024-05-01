@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Điện thoại iPhone 15 Pro Max 256GB",
+        "price": 29990000
+    },
+    {
+        "name": "Điện thoại Samsung Galaxy Z Fold5 5G 256GB",
+        "price": 29990000
+    },
+    {
+        "name": "Điện thoại Xiaomi 14 5G 512GB",
+        "price": 21490000
+    },
+    {
+        "name": "Laptop Acer Gaming Predator Helios 16 PH16 71 72BV i7 13700HX/16GB/512GB/8GB RTX4070/240Hz/Win11",
+        "price": 55990000
+    },
+    {
+        "name": "Laptop Dell Precision 16 5680 i9 13900H/32GB/1TB/8GB RTXA2000/Win11 Pro",
+        "price": 102190000
+    },
+    {
+        "name": "Laptop Lenovo Gaming Legion 5 16IRH8 i5 13500H/16GB/512GB/6GB RTX4050/165Hz/Win11",
+        "price": 34990000
+    }
+]
